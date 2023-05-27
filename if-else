@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Enter Commnad"
+read cmd
+$cmd
+if [ $? == 0 ]
+then
+echo " Successful"
+else
+echo " Failed"
+fi
